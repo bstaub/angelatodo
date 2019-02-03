@@ -1,0 +1,10 @@
+{
+    "tasks": [
+        {
+          "label": "npm start",
+          "type": "npm",
+          "script": "start",
+          "auto": true
+        }
+      ]
+}

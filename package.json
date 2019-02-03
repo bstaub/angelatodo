@@ -1,0 +1,18 @@
+{
+  "name": "angelatodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "nodemon": "nodemon app.js",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Bruno Staub <bruno.staub@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
