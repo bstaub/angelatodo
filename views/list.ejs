@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>List ejs</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-
-    <div class="box" id="heading">
-            <h1> <%= kindOfDay %> </h1>
-    </div>
-    
+<%- include('header') -%>    
     
     <div class="box">
             <% for( let i = 0; i < newListItem.length; i++ ) { %>
@@ -24,12 +10,10 @@
 
              <form class="item" action="/" method="POST">
                 <input type="text" name="newItem" placeholder="Neuer Eintrag" autocomplete="off">
-                <button type="submit" name="button">+</button>
+                <button type="submit" name="list" value=<%= listTitle %></button>+</button>
             </form>
 
     </div>
 
 
-
-</body>
-</html>
+<%- include('footer') -%> 

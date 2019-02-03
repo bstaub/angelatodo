@@ -4,8 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "nodemon": "nodemon app.js",
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "sass:compile": "node-sass --include-path sass ./public/scss/styles.scss ./public/css/styles.css -w",
+    "dev2": "npm run dev & npm run sass:compile & wait"
   },
   "keywords": [],
   "author": "Bruno Staub <bruno.staub@gmail.com>",
@@ -14,5 +16,8 @@
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
   }
 }
