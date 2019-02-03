@@ -14,7 +14,7 @@ app.get("/", (req, res) =>{
 
   var options = {
     weekday: "long",
-    year: "numeric",
+    //year: "numeric",
     month: "long",
     day: "numeric",
 
