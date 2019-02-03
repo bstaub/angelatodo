@@ -1,4 +1,5 @@
 # Notes
+Added, 3.2.2019, BS
 
 
 ### Visual Studio Code Plugin used
